@@ -1,13 +1,12 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources_list>
-    <resource category="graphical">
-        <name language="japanese">Sozaiya 405</name>
-        <link>http://sozaiya405.chu.jp/405/</link>
-        <image width="37", height="35">sozaiya405_7.gif</image>
-    </resource>
-    <resource category="graphical">
-        <name language="english">Transparent Textures</name>
-        <link>https://www.transparenttextures.com/</link>
-        <image />
-    </resource>
- </resources_list>
+
+<resource category="graphical">
+    <name language="japanese">Sozaiya 405</name>
+</resource>
+
+<resource category="graphical">
+    <name language="english">Transparent Textures</name>
+</resource>
+
+</resources_list>
