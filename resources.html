@@ -17,6 +17,25 @@
     <p>
         <a href="http://sozaiya405.chu.jp/405/"><img src="sozaiya405_7.gif"></a>
     </p>
+
+    <p id="resource_entry"></p>
+
+    <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+          }
+      };
+      xhttp.open("GET", "resources.xml", true);
+      xhttp.send();
+      
+      function myFunction(xml) {
+          var xmlDoc = xml.responseXML;
+          document.getElementById("resource_entry").innerHTML =
+          xmlDoc.getElementsByTagName("resoource")[0].childNodes[0].nodeValue;
+      }
+      </script>
     
     <p>This site is currently under consturtcion</p>
   </body>
