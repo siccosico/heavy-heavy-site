@@ -18,7 +18,13 @@
         <a href="http://sozaiya405.chu.jp/405/"><img src="sozaiya405_7.gif"></a>
     </p>
 
-    <p id="resource_entry"></p>
+    <p id="resource_entry">help</p>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = "Hello World!";
+    </script> 
 
     <script>
       var xhttp = new XMLHttpRequest();
@@ -33,7 +39,7 @@
       function myFunction(xml) {
           var xmlDoc = xml.responseXML;
           document.getElementById("resource_entry").innerHTML =
-          xmlDoc.getElementsByTagName("resource")[0].childNodes[0].nodeValue;
+          xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
       }
     </script>
     
