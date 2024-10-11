@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update_list>
+    <update_entry>
+        <date>
+            <day>07</day>
+            <month>10</month>
+            <year>2024</year>
+        </date>
+        <action>created site</action>
+        <action>deployed at neocities</action>
+    </update_entry>
+    <update_entry>
+        <date>
+            <day>10</day>
+            <month>10</month>
+            <year>2024</year>
+        </date>
+        <action>moved to vercel</action>
+    </update_entry>
+    <update_entry>
+        <date>
+            <day>11</day>
+            <month>10</month>
+            <year>2024</year>
+        </date>
+        <action>embedded the test godot game</action>
+        <action>XML stuff</action>
+    </update_entry>
+</update_list>
