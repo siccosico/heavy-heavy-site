@@ -3,10 +3,12 @@
 
 <resource category="graphical">
     <name language="japanese">Sozaiya 405</name>
+    <author>mikiyu</author>
 </resource>
 
 <resource category="graphical">
     <name language="english">Transparent Textures</name>
+    <author>mikehearn</author>
 </resource>
 
 </resources_list>
