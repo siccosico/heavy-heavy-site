@@ -26,4 +26,14 @@
         <action>embedded the test godot game</action>
         <action>XML stuff</action>
     </update_entry>
+    <update_entry>
+        <date>
+            <day>22</day>
+            <month>12</month>
+            <year>2024</year>
+        </date>
+        <action>updated about page</action>
+        <action>updated home page</action>
+        <action>removed the godot test game</action>
+    </update_entry>
 </update_list>
